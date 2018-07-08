@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bnb:BottomBarPage
+    x:Class="BottomNavBarXf.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:bnb="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms">
+
+    <ContentPage
+        Title="Friends"
+        bnb:BottomBarPageExtensions.TabColor="DodgerBlue"
+        Icon="friends.png">
+        <Label
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Friends"
+            VerticalOptions="Center" />
+    </ContentPage>
+
+    <ContentPage
+        Title="Nearby"
+        bnb:BottomBarPageExtensions.TabColor="Goldenrod"
+        Icon="nearby.png">
+        <Label
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Nearby"
+            VerticalOptions="Center" />
+    </ContentPage>
+
+    <ContentPage
+        Title="Favorites"
+        bnb:BottomBarPageExtensions.TabColor="Crimson"
+        Icon="favorites.png">
+        <Label
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Favorites"
+            VerticalOptions="Center" />
+    </ContentPage>
+
+    <ContentPage
+        Title="Restaurants"
+        bnb:BottomBarPageExtensions.TabColor="ForestGreen"
+        Icon="restaurants.png">
+        <Label
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Restaurants"
+            VerticalOptions="Center" />
+    </ContentPage>
+
+    <ContentPage
+        Title="Recents"
+        bnb:BottomBarPageExtensions.TabColor="DarkViolet"
+        Icon="recents.png">
+        <Label
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Recents"
+            VerticalOptions="Center" />
+    </ContentPage>
+
+</bnb:BottomBarPage>
